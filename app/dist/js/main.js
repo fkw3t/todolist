@@ -10,13 +10,23 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./node_modules/bootstrap/dist/css/bootstrap.css":
+/*!*******************************************************!*\
+  !*** ./node_modules/bootstrap/dist/css/bootstrap.css ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://to-do-list/./node_modules/bootstrap/dist/css/bootstrap.css?");
+
+/***/ }),
+
 /***/ "./app/src/app.ts":
 /*!************************!*\
   !*** ./app/src/app.ts ***!
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _controllers_somecontroller__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./controllers/somecontroller */ \"./app/src/controllers/somecontroller.ts\");\n\r\nconst x = new _controllers_somecontroller__WEBPACK_IMPORTED_MODULE_0__.Pessoa;\r\nconsole.log('YEAAAAAAAAAAAAAA');\r\n\n\n//# sourceURL=webpack://to-do-list/./app/src/app.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.css */ \"./node_modules/bootstrap/dist/css/bootstrap.css\");\n/* harmony import */ var _controllers_somecontroller__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./controllers/somecontroller */ \"./app/src/controllers/somecontroller.ts\");\n\n\nconst x = new _controllers_somecontroller__WEBPACK_IMPORTED_MODULE_1__.Pessoa;\nconsole.log('YEAAAAAAAkkAAAAAAA');\n\n\n//# sourceURL=webpack://to-do-list/./app/src/app.ts?");
 
 /***/ }),
 
@@ -26,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _con
   \***********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Pessoa\": () => (/* binding */ Pessoa)\n/* harmony export */ });\nclass Pessoa {\r\n    kk() {\r\n        return \"naooo\";\r\n    }\r\n}\r\n;\r\n\n\n//# sourceURL=webpack://to-do-list/./app/src/controllers/somecontroller.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Pessoa\": () => (/* binding */ Pessoa)\n/* harmony export */ });\nclass Pessoa {\n    kk() {\n        return \"naooo\";\n    }\n}\n;\n\n\n//# sourceURL=webpack://to-do-list/./app/src/controllers/somecontroller.ts?");
 
 /***/ })
 
